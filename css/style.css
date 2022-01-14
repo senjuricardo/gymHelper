@@ -2,7 +2,7 @@
 main{
     text-align: center;
     background-color: #F7F7F7;
-    padding-bottom: 500px;
+    padding-bottom: 230px;
     padding-top: 5px;
 }
 .titulo{
@@ -47,10 +47,7 @@ h1{
    
 }
 
-footer{
-      position: sticky;
-    bottom:0px;
-}
+
 
 .secdiv{
     text-align: center;
@@ -70,9 +67,7 @@ footer{
     width: 50%;
 }
 
-.bi:hover{
-color: blue;
-}
+
 
 .imgcar{
     width: 30%;
@@ -145,11 +140,10 @@ color: blue;
 
 
 /* footer */
-.bi{
-    color: red;
-}
 
-.bi:hover{
-    color: #F7F7F7;
-    
+.btn-about{
+    margin-right: 70px;
+}
+.btn-social{
+    border-radius: 40px;
 }
