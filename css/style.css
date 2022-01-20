@@ -76,6 +76,39 @@ h1{
 .carousel{
     align-items: center;
 }
+.saudavel{
+    text-align: left !important;
+}
+
+.textoSaudeEsq{
+    text-align: left;
+    margin: 40px;
+}
+
+.textoSaudeDir{
+    text-align: right;
+    margin: 40px;
+}
+.menuHealth{
+    background-color: #d9ecee;
+    border-radius: 50px;
+}
+hr{
+    opacity: .50;
+    background-color: transparent;
+    border-bottom-color: initial;
+    border: dotted red 8px;
+    border-bottom: none;
+    width: 8%;
+    margin: 100px auto;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
 /* ----------------body--------------------------*/
 
 .human-body {
@@ -90,7 +123,7 @@ h1{
     cursor: pointer;
 }
 .human-body svg:hover path {
-    fill: #ff7d16;
+    fill: red;
     
 }
 
