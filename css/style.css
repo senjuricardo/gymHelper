@@ -1,4 +1,6 @@
-
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 main{
     text-align: center;
     background-color: #F7F7F7;
@@ -76,6 +78,9 @@ h1{
 .carousel{
     align-items: center;
 }
+.carousel-item img{
+    height: 40vh ;
+}
 .saudavel{
     text-align: left !important;
 }
@@ -89,10 +94,15 @@ h1{
     text-align: right;
     margin: 40px;
 }
-.menuHealth{
-    background-color: #d9ecee;
-    border-radius: 50px;
+.saudavel{
+    text-align: center !important;
 }
+.menuHealth{
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    
+}
+
 hr{
     opacity: .50;
     background-color: transparent;
@@ -169,6 +179,13 @@ hr{
 .human-body svg.hands {
     margin-left: -102.5px;
     top: 224px;
+}
+
+.logo{
+    font-size: 70px;
+    color: red;
+    opacity: 0.60;
+  
 }
 
 
