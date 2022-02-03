@@ -226,8 +226,30 @@ hr{
     color: red;
  }
 
+.mapa{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+.cont{
+    padding-bottom: 0 !important;
+    margin-bottom: 0px !important;
+}
 
+.botao-contact{
+   
+    margin-top: 8px;
+    background-color: #c2baba;
+    margin-left: 2rem;
+    
+    color: black;
+}
+.botao-contact:hover{
+    background-color: #989191;
+}
+.form{
+    padding-bottom: 4rem !important;
+}
 
 
 /* footer */
@@ -237,4 +259,15 @@ hr{
 }
 .btn-social{
     border-radius: 40px;
+}
+
+.fa-user {
+    padding-right: 1rem;
+}
+.fa-envelope {
+    padding-right: 1rem;
+}
+
+.fa-phone {
+    padding-right: 1rem;
 }
